@@ -8,7 +8,7 @@ def load_library(path)
   emoticons = {}
   temp_emoticons.each do |index|
     puts index[0]
-    emoticons[index] = {:english => index[0], :japanese => index[1]}
+    emoticons[index[0]] = {:english => index[1], :japanese => index[2]}
   end
   emoticons
 end
