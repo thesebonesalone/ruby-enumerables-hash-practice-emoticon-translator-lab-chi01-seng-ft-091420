@@ -15,7 +15,7 @@ end
 def get_japanese_emoticon(path,emote)
   emoticons = load_library(path)
   emoticons.each do |key, value|
-    puts key[:japanese]
+    puts value.class
     
   end
   # code goes here
