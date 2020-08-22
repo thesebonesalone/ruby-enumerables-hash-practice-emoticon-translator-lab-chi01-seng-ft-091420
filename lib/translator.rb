@@ -15,9 +15,7 @@ end
 def get_japanese_emoticon(path,emote)
   emoticons = load_library(path)
   emoticons.each do |index|
-    if index[:japanese] == emote
-      return index
-    end
+    puts index
   end
   # code goes here
 end
