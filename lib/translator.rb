@@ -9,6 +9,7 @@ def load_library(path)
   temp_emoticons.each do |index|
     emoticons[index] = {:english => index[1], :japanes => index[2]}
   end
+  puts emoticons
   emoticons
 end
 
