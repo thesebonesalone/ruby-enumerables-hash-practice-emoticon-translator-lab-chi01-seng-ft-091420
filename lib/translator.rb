@@ -7,7 +7,7 @@ def load_library(path)
   temp_emoticons = YAML.load_file(path)
   emoticons = {}
   temp_emoticons.each do |index|
-    puts emoticons[index[0]]
+    puts emoticons[index]
   end
   
 end
