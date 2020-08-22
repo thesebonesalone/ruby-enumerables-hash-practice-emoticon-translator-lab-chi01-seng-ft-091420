@@ -5,6 +5,7 @@ def load_library(path)
   # code goes here
   require "yaml"
   temp_emoticons = YAML.load_file(path)
+  puts temp_emoticons
   emoticons = {}
   temp_emoticons.each do |index|
     puts index[1]
